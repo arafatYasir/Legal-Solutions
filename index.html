@@ -27,12 +27,25 @@
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/b4f7322401.js" crossorigin="anonymous"></script>
 
+    <!-- Font: EB Garamond -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <style>
+        .eb-garamond {
+            font-family: "EB Garamond", serif;
+        }
+    </style>
+
 </head>
 
 <body>
     <header class="container mx-auto">
         <!-- Nav -->
-        <div class="navbar gap-10 bg-base-100">
+        <div class="navbar gap-10 bg-base-100 mb-12">
             <div class="navbar-start flex-1">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -64,6 +77,22 @@
             </div>
             <div>
                 <a class="btn bg-primary-color">Free Consultation</a>
+            </div>
+        </div>
+
+        <!-- Banner -->
+        <div class="eb-garamond hero lg:h-[700px]" style="background-image: url(images/banner.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+                <div class="lg:max-w-2xl">
+                    <h1 class="mb-5 text-7xl font-extrabold">We Provide Effective Legal Solutions</h1>
+                    <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority
+                        have suffered alteration in some form, by injected humour.</p>
+                    <div class="flex gap-6">
+                        <input type="text" placeholder="Search your Services" class="input input-bordered w-full" />
+                        <button class="btn bg-primary-color text-white text-xl font-semibold px-9">Search</button>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
