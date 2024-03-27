@@ -318,7 +318,8 @@
                 <div>
                     <!-- First Container -->
                     <div class="flex">
-                        <div class="eb-garamond card w-72 h-72 bg-gradient-color rounded-none border-r-2 border-b-2 border-gray-300">
+                        <div
+                            class="eb-garamond card w-72 h-72 bg-gradient-color rounded-none border-r-2 border-b-2 border-gray-300">
                             <figure class="mt-16">
                                 <img src="images/address.png" alt="Shoes" />
                             </figure>
@@ -329,7 +330,8 @@
                             </div>
                         </div>
 
-                        <div class="eb-garamond card w-72 h-72 bg-gradient-color rounded-none border-b-2 border-gray-300">
+                        <div
+                            class="eb-garamond card w-72 h-72 bg-gradient-color rounded-none border-b-2 border-gray-300">
                             <figure class="mt-16">
                                 <img src="images/call.png" alt="Shoes" />
                             </figure>
@@ -343,7 +345,8 @@
 
                     <!-- Second Container -->
                     <div class="flex">
-                        <div class="eb-garamond card w-72 h-72 bg-gradient-color rounded-none border-r-2 border-gray-300">
+                        <div
+                            class="eb-garamond card w-72 h-72 bg-gradient-color rounded-none border-r-2 border-gray-300">
                             <figure class="mt-16">
                                 <img src="images/email.png" alt="Shoes" />
                             </figure>
@@ -369,11 +372,12 @@
 
                 <!-- Contact Form -->
                 <div class="w-full space-y-8 h-[576px] flex flex-col justify-between items-center">
-                    <input type="text" placeholder="Your Name" class="input bg-gradient-color w-full max-w-[570px]"/>
-                    <input type="email" placeholder="Your Email" class="input bg-gradient-color w-full max-w-[570px]"/>
-                    <input type="text" placeholder="Subject" class="input bg-gradient-color w-full max-w-[570px]"/>
+                    <input type="text" placeholder="Your Name" class="input bg-gradient-color w-full max-w-[570px]" />
+                    <input type="email" placeholder="Your Email" class="input bg-gradient-color w-full max-w-[570px]" />
+                    <input type="text" placeholder="Subject" class="input bg-gradient-color w-full max-w-[570px]" />
 
-                    <input type="text" placeholder="Your Message" class="input bg-gradient-color w-full max-w-[570px] pb-28 pt-6"/>
+                    <input type="text" placeholder="Your Message"
+                        class="input bg-gradient-color w-full max-w-[570px] pb-28 pt-6" />
                     <br>
                     <button class="btn bg-primary-color text-white w-full max-w-[570px]">Send Message</button>
                 </div>
@@ -381,7 +385,44 @@
         </section>
     </main>
 
-    <footer></footer>
+    <footer class="footer p-10 bg-base-200 text-base-content md:justify-center md:gap-32 bg-black text-white">
+        <nav>
+            <img src="images/logo.png" class="md:mb-12">
+            <p class="md:max-w-64">There are many variations of passages of Lorem Ipsum available, but the majority have
+                suffered alteration in some form, by injected humour.</p>
+        </nav>
+        <nav>
+            <h6 class="eb-garamond font-extrabold text-2xl text-white md:mb-12">Useful Link</h6>
+            <a class="link link-hover">Home</a>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Cases</a>
+            <a class="link link-hover">Blog</a>
+            <a class="link link-hover">Contact Us</a>
+        </nav>
+        <nav>
+            <h6 class="eb-garamond font-extrabold text-2xl text-white md:mb-12">Contact Now</h6>
+            <p>555 4th 5t NW, Washington <br>
+                DC 20530, United States</p>
+            <p>
+                +88 01750 000 000 <br>
+                +88 01750 000 000
+            </p>
+            <p>
+                info@gmail.com <br>
+                info@gmail.com
+            </p>
+        </nav>
+        <form>
+            <h6 class="eb-garamond font-extrabold text-2xl text-white md:mb-12">Subscribe</h6>
+            <p class="md:max-w-52 mb-6">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+            <fieldset class="form-control w-80 relative">
+                <div class="join">
+                    <input type="text" placeholder="Email Address" class="input input-bordered w-72 text-black"/>
+                    <button class="btn bg-primary-color rounded-xl absolute left-[242px]"><i class="fa-solid fa-paper-plane text-white"></i></button>
+                </div>
+            </fieldset>
+        </form>
+    </footer>
 </body>
 
 </html>
